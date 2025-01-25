@@ -1,0 +1,108 @@
+/* styles/HeartPage.css */
+
+/* General Styles */
+body {
+    background-color: #f8fafc;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Card Styles */
+  .card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
+  /* Form Styles */
+  .form-scroll {
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 10px;
+  }
+  
+  .form-label {
+    font-size: 0.95rem;
+    color: #4b5563;
+    font-weight: 500;
+  }
+  
+  .form-control {
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ddd;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.25);
+  }
+  
+  /* Button Styles */
+  button {
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2563eb;
+    border-color: #2563eb;
+    color: white;
+  }
+  
+  /* Header Section */
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1e3a8a;
+    margin-bottom: 1rem;
+  }
+  
+  p.lead {
+    font-size: 1.1rem;
+    color: #6b7280;
+  }
+  
+  /* List Styles */
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  li {
+    font-size: 1rem;
+    color: #6b7280;
+    margin-bottom: 0.8rem;
+  }
+  
+  li strong {
+    color: #1e3a8a;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .form-scroll {
+      max-height: 300px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    p.lead {
+      font-size: 0.9rem;
+    }
+  
+    button {
+      font-size: 0.9rem;
+    }
+  }
+  
