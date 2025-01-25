@@ -1,0 +1,18 @@
+.card {
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .container {
+    padding-top: 60px;
+  }
+  
