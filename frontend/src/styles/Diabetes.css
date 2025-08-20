@@ -24,6 +24,7 @@ body {
     font-size: 0.95rem;
     color: #4b5563;
     font-weight: 500;
+    letter-spacing: 1px;
 }
 
 .form-control {
@@ -36,6 +37,11 @@ body {
 .form-control:focus {
     border-color: #2563eb;
     box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.25);
+}
+
+input.form-control:focus {
+    border-color: #1976d2;
+    box-shadow: 0 0 0 0.2rem rgba(25, 118, 210, 0.15);
 }
 
 button {
@@ -77,6 +83,23 @@ li {
 
 li strong {
     color: #1e3a8a;
+}
+
+.diabetes-bg {
+    background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+    min-height: 100vh;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 1.5rem;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 32px 0 rgba(25, 118, 210, 0.12);
+}
+
+.doctor-icon {
+    display: inline-block;
+    margin-bottom: 0.5rem;
 }
 
 @media (max-width: 768px) {

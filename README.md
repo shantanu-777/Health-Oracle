@@ -12,6 +12,11 @@ The repository is structured as follows:
 ```
 Health-Oracle/
 ├── backend/
+|   ├── saved_models/
+│   ├── heart_disease_model.pkl # Pre-trained model for heart disease
+│   ├── lung_cancer_model.pkl   # Pre-trained model for lung cancer
+│   ├── diabetes_model.pkl      # Pre-trained model for diabetes
+│   └── ...  
 │   ├── app.py                  # Main backend application managing routes and API endpoints
 │   ├── models.py               # Machine learning model loading and prediction logic
 │   ├── utilities.py            # Utility functions for preprocessing and data handling
@@ -19,26 +24,11 @@ Health-Oracle/
 │   ├── static/                 # Static assets like images or CSS
 │   ├── templates/              # Jinja2 HTML templates
 │   └── ...
-├── colab_files_to_train_models/
-│   ├── heart_disease_model.ipynb  # Notebook to train heart disease prediction model
-│   ├── lung_cancer_model.ipynb    # Notebook to train lung cancer prediction model
-│   ├── diabetes_model.ipynb       # Notebook to train diabetes prediction model
-│   └── ...
-├── dataset/
-│   ├── heart_disease.csv       # Dataset for heart disease
-│   ├── lung_cancer.csv         # Dataset for lung cancer
-│   ├── diabetes.csv            # Dataset for diabetes
-│   └── ...
 ├── frontend/
 │   ├── public/                 # Static files for React
 │   ├── src/                    # React components and logic
 │   ├── package.json            # Node.js dependencies
 │   ├── .env                    # Environment variables for frontend
-│   └── ...
-├── saved_models/
-│   ├── heart_disease_model.pkl # Pre-trained model for heart disease
-│   ├── lung_cancer_model.pkl   # Pre-trained model for lung cancer
-│   ├── diabetes_model.pkl      # Pre-trained model for diabetes
 │   └── ...
 ├── README.md                   # Documentation
 └── ...
